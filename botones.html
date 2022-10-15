@@ -1,40 +1,117 @@
+
 <!DOCTYPE html>
-<html lang="es">
+<html lang="e">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Botones</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botones</title>
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">BOOTSTRAP</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled active" href="botones.html">Botones</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="alertas.html">Alertas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="listas.html">Listas</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">BOOTSTRAP</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="botones.html">Botones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="alertas.html">Alertas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="listas.html">Listas</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<h2>BOTONES</h2>
+
+<hr/>
+<section class="ejemplos">
+<h3>Ejemplos</h3>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+</section>
+
+<hr/>
+<section class="ejemplos">
+  <h3>Botones de esquema</h3>
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-light">Light</button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
+</section>
+
+<hr/>
+<section class="ejemplos">
+<h3>Botones grandes</h3>
+<button type="button" class="btn btn-primary btn-lg">Large button</button>
+<button type="button" class="btn btn-secondary btn-lg">Large button</button>
+</section>
+
+<hr/>
+<section class="ejemplos">
+  <h3>Botones medianos</h3>
+<button type="button" class="btn btn-primary btn-sm">Small button</button>
+<button type="button" class="btn btn-secondary btn-sm">Small button</button>
+</section>
+
+<hr/>
+<section class="ejemplos">
+  <h3>Botones chicos</h3>
+  <button type="button" class="btn btn-primary"style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Custom button
+</button>
+</section>
+
+<hr/>
+<section class="ejemplos">
+  <h3>Botones deshabilitados</h3>
+<button type="button" class="btn btn-primary" disabled>Primary button</button>
+<button type="button" class="btn btn-secondary" disabled>Button</button>
+<button type="button" class="btn btn-outline-primary" disabled>Primary button</button>
+<button type="button" class="btn btn-outline-secondary" disabled>Button</button>
+</section>
+
+<hr/>
+<section class="ejemplos">
+  <h3>Bottones de bloque</h3>
+  <div class="d-grid gap-2">
+    <button class="btn btn-primary" type="button">Button</button>
+    <button class="btn btn-primary" type="button">Button</button>
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <button class="btn btn-primary" type="button">Button</button>
+      <button class="btn btn-primary" type="button">Button</button>
+    </div>
+  </div>
+</section>
+
+
+
 
 </body>
+
 </html>
