@@ -47,6 +47,3 @@ body{
     background-image: radial-gradient(circle at 90.56% -7.92%, #a3dced 0, #a5dbf0 5%, #a9daf3 10%, #aed9f5 15%, #b3d7f7 20%, #b9d6f8 25%, #c0d4f8 30%, #c6d2f8 35%, #cdd0f7 40%, #d4cff5 45%, #dacdf2 50%, #e0cbef 55%, #e6caeb 60%, #ebc9e7 65%, #efc7e2 70%, #f3c7dd 75%, #f6c6d8 80%, #f9c6d3 85%, #fac6ce 90%, #fbc6c9 95%, #fbc6c4 100%);
     font-family: 'Montserrat', sans-serif;
 }
-.boton1{
-    background-color: #fbffaa !important;
-}
